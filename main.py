@@ -238,7 +238,7 @@ class MyWidget(QtGui.QWidget):
                 str+="{:<20}{:^20g}{:^20g}\n".format(j,pd[key][num],pd[key][num]*priori[key])
                 num+=1
             # pass
-        print(pd)
+        # print(pd)
         self.infotext.clear()
         self.show_info(str)
 
